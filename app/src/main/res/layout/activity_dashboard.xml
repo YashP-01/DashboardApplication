@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Dashboard_Activity">
+    tools:context=".Activity.Dashboard_Activity">
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -359,13 +359,13 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="8dp"
                     android:src="@tools:sample/avatars"
-                    app:srcCompat="@drawable/bottom_btn1" />
+                    app:srcCompat="@drawable/bottom_btn2" />
 
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Home"
+                    android:text="Wallet"
                     android:textAlignment="center" />
             </LinearLayout>
 
@@ -406,13 +406,13 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="8dp"
                     android:src="@tools:sample/avatars"
-                    app:srcCompat="@drawable/bottom_btn1" />
+                    app:srcCompat="@drawable/bottom_btn3" />
 
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Home"
+                    android:text="Profile"
                     android:textAlignment="center" />
             </LinearLayout>
 
@@ -429,13 +429,13 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="8dp"
                     android:src="@tools:sample/avatars"
-                    app:srcCompat="@drawable/bottom_btn1" />
+                    app:srcCompat="@drawable/bottom_btn4" />
 
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Home"
+                    android:text="Settings"
                     android:textAlignment="center" />
             </LinearLayout>
         </LinearLayout>
@@ -445,10 +445,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/float_icon"
-            app:layout_anchor="@id/app_bar"
+            android:layout_marginStart="180dp"
             app:tint="@color/white"
             app:maxImageSize="30dp"
-            android:backgroundTint="@color/dark_blue">
+            android:backgroundTint="@color/dark_blue"
+            >
 
         </com.google.android.material.floatingactionbutton.FloatingActionButton>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
