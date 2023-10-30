@@ -7,7 +7,7 @@
     tools:context=".Activity.Dashboard_Activity">
 
     <ScrollView
-        android:id="@+id/scrollView2"
+        android:id="@+id/view1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"

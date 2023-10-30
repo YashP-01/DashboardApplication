@@ -1,12 +1,12 @@
 package com.example.dashboardapplication.Domain;
 
-public class TrendSDomain {
+public class TrendsDomain {
 
     private String title;
     private String subtitle;
     private String picAddress;
 
-    public TrendSDomain(String title, String subtitle, String picAddress) {
+    public TrendsDomain(String title, String subtitle, String picAddress) {
         this.title = title;
         this.subtitle = subtitle;
         this.picAddress = picAddress;
