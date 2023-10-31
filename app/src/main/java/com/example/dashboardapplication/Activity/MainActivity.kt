@@ -9,17 +9,16 @@ import androidx.appcompat.widget.AppCompatButton
 import com.example.dashboardapplication.R
 
 class MainActivity : AppCompatActivity() {
-private lateinit var introBtn: AppCompatButton
+        private lateinit var introBtn: AppCompatButton
 
-        @SuppressLint("MissingInflatedId")
         override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_profile)
+                super.onCreate(savedInstanceState)
+                setContentView(R.layout.activity_main)
 
-        introBtn = findViewById(R.id.introBtn)
+                introBtn = findViewById(R.id.introBtn)
 
-        introBtn.setOnClickListener {
-        startActivity(Intent(this@MainActivity, MainActivity::class.java))
+                introBtn.setOnClickListener {
+                        startActivity(Intent(this, Dashboard_Activity::class.java))
+                }
         }
-        }
-        }
+}

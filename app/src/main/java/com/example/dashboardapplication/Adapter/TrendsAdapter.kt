@@ -29,16 +29,16 @@ class TrendsAdapter(private val items: ArrayList<TrendsDomain>) : RecyclerView.A
         holder.title.text = currentItem.title
         holder.subtitle.text = currentItem.subtitle
 
-        val drawableResourceId = holder.itemView.resources.getIdentifier(
-            currentItem.picAddress,
-            "drawable",
-            holder.itemView.context.packageName
-        )
+//        val drawableResourceId = holder.itemView.resources.getIdentifier(
+//            currentItem.picAddress.toString(),
+//            "drawable",
+//            holder.itemView.context.packageName
+//        )
 
-        Glide.with(holder.itemView.context)
-            .load(drawableResourceId)
-            .transform(GranularRoundedCorners(30f,30f,0f,0f))
-            .into(holder.pic)
+//        Glide.with(holder.itemView.context)
+//            .load(drawableResourceId)
+//            .transform(GranularRoundedCorners(30f,30f,0f,0f))
+//            .into(holder.pic)
 
     }
 
