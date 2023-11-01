@@ -14,15 +14,21 @@ This is a simple dashboard application developed using Kotlin. It is an informat
 ![WhatsApp Image 2023-11-01 at 07 38 55_5c473882](https://github.com/YashP-01/DashboardApplication/assets/125592832/f003dc48-8024-4217-b0bd-a2e860afbd49)
 
 
-![WhatsApp Image 2023-11-01 at 07 38 56_b8c314bf](https://github.com/YashP-01/DashboardApplication/assets/125592832/8867c9a0-ce2c-4b8c-97bf-b6a62f0bb42e)
+![WhatsApp Image 2023-11-01 at 00 01 00_395ae818](https://github.com/YashP-01/DashboardApplication/assets/125592832/b32ce4c6-a322-409a-b2cd-3b430119340e)
+
 
 # Installation
 1. Clone or download this repository.
 2. Open the project in Android Studio.
 3. Build and run the application on an Android device or emulator.
 
-#Usage
+# Usage
 1. Launch the application
-2. You can navigate through your profile and latest notifications.
+2. You can navigate through your profile, wallet, Gallery, Playlist and
+   latest notifications.
 
-#
+# Acknoledgements
+Inspired by simple dashboard application.
+
+# Contact
+If you have any questions or need assistance, feel free to contact [Yash Patel] at [yashp03376@gmail.com]
